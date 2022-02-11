@@ -3,12 +3,15 @@
 		<h1>Добавить пост</h1>
 		<input v-model="post.title" type="text" placeholder="Название поста" class="input">
 		<input v-model="post.body" type="text" placeholder="Название поста" class="input">
-		<button @click="createPost" type="submit" class="btn">Добавить пост</button>
+		<add-btn @click="createPost"/>
+<!--		<button @click="createPost" type="submit" class="btn">Добавить пост</button>-->
 	</form>
 </template>
 
 <script>
+
     export default {
+
         data() {
             return{
                 post: {
@@ -44,12 +47,5 @@
 
 		border: 1px solid turquoise;
 	}
-	.btn {
-		padding: 10px 15px;
-		align-self: flex-end;
-		background: none;
-		border: 1px solid teal;
-		color: teal;
-		cursor:pointer;
-	}
+
 </style>

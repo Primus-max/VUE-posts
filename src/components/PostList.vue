@@ -23,13 +23,6 @@
 </script>
 
 <style scoped>
-	ul {
-		list-style: none;
-	}
 
-	.post{
-		margin-top: 15px;
-		padding: 15px;
-		border: 2px solid teal;
-	}
+
 </style>

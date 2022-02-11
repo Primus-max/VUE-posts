@@ -1,8 +1,12 @@
 <template>
-	<ul class="post">
+	<div class="post">
+	<ul >
 		<li><strong>Название :</strong> {{ post.title }}</li>
 		<li><strong>Описание :</strong> {{ post.body }}</li>
 	</ul>
+		<del-btn/>
+<!--		<button class="btn_del">Удалить</button>-->
+	</div>
 </template>
 
 <script>
@@ -17,5 +21,17 @@
 </script>
 
 <style scoped>
+	ul {
+		list-style: none;
+	}
+
+	.post{
+		margin-top: 15px;
+		padding: 15px;
+		display: flex;
+		justify-content: space-between;
+		border: 2px solid teal;
+	}
+
 
 </style>
