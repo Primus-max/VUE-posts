@@ -5,7 +5,6 @@
 		<li><strong>Описание :</strong> {{ post.body }}</li>
 	</ul>
 		<del-btn/>
-<!--		<button class="btn_del">Удалить</button>-->
 	</div>
 </template>
 
